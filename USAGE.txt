@@ -1,9 +1,11 @@
-You must run the first script 'run_streamlit' to launch user interface.
-----
-In the first script : 'run_streamlit' -> Change BASE_DIR relative path to match the path on your computer
+Put the two python scripts in the same folder
 ---
+In the first script : 'run_streamlit' -> Change BASE_DIR relative path to match the path on your computer
+In the second script : 'script_py' -> Change BASE_DIR with the same path 
+---
+You must run the first script 'run_streamlit' to launch user interface.
 'script_py' is the main script that scrap, format, save data and have the code readable by streamlit and DO NOT have to be run (the first script will run it). 
-
-! Both script must stay in the same folder so that the code can run safely'
-The code create csv and xlsx folder in this very same folder. 
+---
+! Both script must stay in the same folder! 
+The code create csv and xlsx files  in this same folder. 
 They can be deleted afterward (they are overwritten by the new ones if you rerun the code).
